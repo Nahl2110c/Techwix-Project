@@ -1,0 +1,33 @@
+
+/*------------------------------------------ Footer Start -----------------------------------------*/
+.footer-ul ,li{
+    list-style: none;
+    color: #e5e5e5;
+  
+}
+.footer-ul ,li,a{
+    text-decoration: none;
+   
+    line-height: 2;
+    
+
+}
+#footer-row{
+    background-image: url('../Images/Footer/img1.jpg');
+    background-attachment: fixed;
+    background-position-y: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 50vh;
+    padding-top: 20px;
+    text-shadow: 1px 1px 9px black;
+}
+
+@media (min-width: 0px) and (max-width: 992px){
+    
+    #footer-row{
+        height: 100%;
+    }
+
+}

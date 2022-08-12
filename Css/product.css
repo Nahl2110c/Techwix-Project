@@ -1,0 +1,259 @@
+/*---------------------
+  Man Banner
+-----------------------*/
+body{
+	background-color: #ebf2fa !important;
+}
+
+.man-banner {
+	padding-right: 65px;
+	padding-left: 65px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.product-large {
+	background-image: url('img/products/man-large.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+
+
+	height: 600px;
+	/* margin-left: -15px; */
+	/* margin-right: -15px; */
+	text-align: center;
+	padding-top: 285px;
+
+}
+
+.product-large h2 {
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+
+.product-large a {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+}
+
+.product-large a:before {
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 2px;
+	background: #ffffff;
+	content: "";
+}
+
+.filter-control {
+	text-align: center;
+	margin-bottom: 45px;
+	padding-top: 80px;
+}
+
+.filter-control ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+	color: #b2b2b2;
+	margin-right: 22px;
+	position: relative;
+	cursor: pointer;
+}
+
+.filter-control ul li.active {
+	color: #171717;
+}
+
+.filter-control ul li.active:before {
+	opacity: 1;
+}
+
+.filter-control ul li:before {
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	height: 2px;
+	background: #171717;
+	content: "";
+	opacity: 0;
+}
+
+.filter-control ul li:last-child {
+	margin-right: 0;
+}
+
+.product-slider .owl-nav button[type=button] {
+	font-size: 30px;
+	position: absolute;
+	left: -62px;
+	top: 25%;
+	color: #171717;
+	opacity: 0.3;
+}
+
+.product-slider .owl-nav button[type=button].owl-next {
+	left: auto;
+	right: -62px;
+	color: #171717;
+	opacity: 1;
+}
+
+.product-slider .owl-dots {
+	text-align: center;
+	margin-top: 27px;
+}
+
+.product-slider .owl-dots button {
+	width: 6px;
+	height: 6px;
+	background: #D8D9DA;
+	border-radius: 50%;
+	margin-right: 10px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.product-slider .owl-dots button:last-child {
+	margin-right: 0;
+}
+
+.product-slider .owl-dots button.active {
+	width: 30px;
+	background: #252525;
+	border-radius: 50px;
+}
+
+.product-item {
+	margin-bottom: 50px;
+}
+
+.product-item:hover .pi-pic ul {
+	bottom: 0;
+}
+
+.product-item .pi-pic {
+	overflow: hidden;
+	position: relative;
+}
+
+.product-item .pi-pic img {
+	/* min-width: 100%; */
+	width: 100%;
+	height: 100%;
+}
+
+.product-item .pi-pic .sale {
+	color: #ffffff;
+	font-size: 10px;
+	background: #76BC42;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.product-item .pi-pic .sale.pp-sale {
+	background: #e7ab3c;
+}
+
+
+
+.product-item .pi-pic ul {
+	position: absolute;
+	left: 0;
+	bottom: -52px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	width: 100%;
+}
+
+.product-item .pi-pic ul li {
+	list-style: none;
+	display: inline-block;
+	background: #ffffff;
+}
+
+.product-item .pi-pic ul li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #252525;
+	display: block;
+	padding: 16px 18px 12px 19px;
+}
+
+.product-item .pi-text {
+	text-align: center;
+	padding-top: 26px;
+}
+
+.product-item .pi-text .catagory-name {
+	font-size: 10px;
+	color: #b2b2b2;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.product-item .pi-text a {
+	display: block;
+}
+
+.product-item .pi-text a h5 {
+	color: #252525;
+}
+
+.product-item .pi-text .product-price {
+	color: #e7ab3c;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.product-item .pi-text .product-price span {
+	font-size: 14px;
+	font-weight: 400;
+	color: #b2b2b2;
+	text-decoration: line-through;
+}
+
+
+
+
+
+/* Daniyal */
+
+
+.img1 {
+
+
+	/* height: 100vh; */
+	position: sticky;
+	top: 3rem;
+}
+
+
+
+@media (min-height : 1366px) and (max-height: 1400px) {
+	#justi {
+		/* background-color: steelblue; */
+		padding-top: 50px;
+	}
+
+	.product-large {
+		height: 900px;
+	}
+
+}

@@ -1,0 +1,31 @@
+/* =========================================  Feedback Start ============================================= */
+
+.Feedback-container{
+    background-image: url(../Images/Feedback-img/pexels-sora-shimazaki-5926238.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: rgba(41, 39, 39, 0.836); */
+    background-position: center;
+    margin-top: 86px;
+    
+
+}
+.feed-content1{ 
+    color: rgb(255, 255, 255);
+}
+.feed-content2{
+    background-color: #ffffffb9;
+    border-radius: 9px;
+    width: auto;
+    padding: 10px;
+    box-shadow: 10px 10px 5px rgba(41, 39, 39, 0.836);
+    
+}
+.main-row{
+    height: 100vh;
+}
+textarea {
+    resize: none;
+}
+
+/* =========================================  Feedback End =============================================== */

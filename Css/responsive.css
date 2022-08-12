@@ -1,0 +1,155 @@
+
+
+
+@media (max-width: 360px){
+
+
+    .deals-container{
+        margin-top: -240px;
+    }
+
+    .main-btn{
+        padding: 6px 22px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    /* ------------------------------------------ About us --------------------------------------------------- */
+    .about-wrapper{
+        padding-bottom: unset;
+    }
+    .about-wrapper .card{
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+    
+}
+
+/*------------------------------------------------- iphone X ----------------------------------------------*/
+@media (min-width: 361px) and (max-width: 400px) {
+
+
+    .deals-container{
+        margin-top: -240px;
+    }
+    
+    /* ------------------------------------------ About us --------------------------------------------------- */
+    .about-wrapper{
+        padding-bottom: unset;
+    }
+    .about-wrapper .card{
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+ 
+  
+}
+
+
+
+
+@media (min-width: 401px) and (max-width:660px){
+    .deals-container{
+        margin-top: -240px;
+    }
+
+     /* ------------------------------------------ About us --------------------------------------------------- */
+    .about-wrapper{
+        padding-bottom: unset;
+    }
+    .about-wrapper .card{
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+
+} 
+
+
+/* ------------------------------------------------ ipad ---------------------------------------------------*/
+@media (min-width: 661px) and (max-width: 768px){
+
+    .deals-container{
+        margin-top: -160px;
+    }
+
+     /* ------------------------------------------ About us --------------------------------------------------- */
+    .about-wrapper{
+        padding-bottom: unset;
+    }
+    .about-wrapper .card{
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+    
+}
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .deals-container{
+        margin-top: -225px;
+    }
+   
+    /* ------------------------------------------ About us --------------------------------------------------- */
+    .about-wrapper{
+        padding-bottom: unset;
+    }
+    .about-wrapper .card{
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
